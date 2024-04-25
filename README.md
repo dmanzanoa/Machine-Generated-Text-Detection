@@ -2,6 +2,7 @@
 
 ## Files Summary 
 - Randomforest.ipynb Random Forest Model
+- Data_argumentaion.ipynb Data_argumentaion method
 - SVM_diff_domain -.ipynb SVM models trained on domain 1 and domain 2 data separately
 - Adaboost.ipynb Adaboosting Model and Adaboosting with SVM stacking Model
 - MLP_Model.ipynb MLP Model on Pytorch with TfIdfVectorizer with ngram_range parameter set to (1,3) (Final Kaggle score)
