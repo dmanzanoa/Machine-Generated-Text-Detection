@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+gensim
+nltk
+torch
+torchvision
+tqdm
+imbalanced-learn
