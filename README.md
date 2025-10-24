@@ -7,7 +7,7 @@ This repository demonstrates solutions for the problem of determining whether a 
 ## Files and Notebooks
 
 - `baseline.ipynb`: TF‑IDF + logistic regression baseline.
-- `data_augmentation.ipynb`: Rebalances classes by oversampling minority samples and concatenating Domain 1 and Domain 2 training data【614772688487699†L55-L117】.
+- `data_augmentation.ipynb`: Rebalances classes by oversampling minority samples and concatenating Domain 1 and Domain 2 training data.
 - `svm_diff_domain.ipynb`: Trains separate SVM models for each domain.
 - `adaboost.ipynb`: AdaBoost and AdaBoost + SVM stacking.
 - `mlp_model.ipynb`: Multi‑layer perceptron in PyTorch using TF‑IDF features.
@@ -18,8 +18,8 @@ This repository demonstrates solutions for the problem of determining whether a 
 ## Dataset
 
 Two newline‑delimited JSON files provide the training data. `domain1.json` contains 5,000 samples (2,500 per class) and `domain2.json` contains 13,000 samples (1,500 human‑generated and 11,500 machine‑generated)【890939888370210†L75-L92】. Each line is a dictionary with fields:
-- `text`: a list of token indices representing the pre‑processed words【890939888370210†L84-L86】;
-- `label`: a binary label (0 = machine, 1 = human)【890939888370210†L87-L88】;
+- `text`: a list of token indices representing the pre‑processed words;
+- `label`: a binary label (0 = machine, 1 = human);
 - `id`: an identifier.
 
 A separate test set comprises 4,000 samples, split evenly between domains and classes. To run the notebooks locally, place `domain1.json` and `domain2.json` in the project root and adjust file paths as needed. During data augmentation the minority class is oversampled and the domains are concatenated into one training set.
