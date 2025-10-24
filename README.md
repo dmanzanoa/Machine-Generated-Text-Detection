@@ -35,3 +35,19 @@ Open a notebook in Jupyter and run the cells sequentially. Adjust the file paths
 ## Future Work
 
 Ideas for further improvement include implementing a proper random forest model in `random_forest.ipynb`, exploring transformer‑based architectures, and investigating more sophisticated domain adaptation and data augmentation techniques.
+
+## Results
+
+The following table summarises the performance metrics of various models trained for this task. Metrics are derived from internal validation and Kaggle results【23922976226649†L240-L294】.
+
+| Model | Precision | Recall | F1‑Score | Training accuracy | Kaggle accuracy |
+| --- | --- | --- | --- | --- | --- |
+| Baseline SVM | 81% | 81% | 81% | 83% | 76% |
+| MLP | 92% | 91% | 91% | 92% | 85% |
+| LSTM | 83% | 83% | 83% | 83% | 77% |
+| Logistic Regression | 80% | 79% | 79% | 80% | 80% |
+| Random Forest | 89% | 89% | 89% | 89% | 81% |
+| Adaptive Boosting | 68% | 68% | 68% | 68% | 70% |
+| Stacking Model 1 | 76% | 76% | 76% | 76% | 76% |
+| Stacking Model 2 | 87% | 87% | 87% | 87% | 79.6% |
+
