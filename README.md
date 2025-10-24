@@ -17,7 +17,7 @@ This repository demonstrates solutions for the problem of determining whether a 
 
 ## Dataset
 
-Two newline‑delimited JSON files provide the training data. `domain1.json` contains 5,000 samples (2,500 per class) and `domain2.json` contains 13,000 samples (1,500 human‑generated and 11,500 machine‑generated)【890939888370210†L75-L92】. Each line is a dictionary with fields:
+Two newline‑delimited JSON files provide the training data. `domain1.json` contains 5,000 samples (2,500 per class) and `domain2.json` contains 13,000 samples (1,500 human‑generated and 11,500 machine‑generated). Each line is a dictionary with fields:
 - `text`: a list of token indices representing the pre‑processed words;
 - `label`: a binary label (0 = machine, 1 = human);
 - `id`: an identifier.
